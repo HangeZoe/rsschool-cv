@@ -21,13 +21,21 @@ Junior developer with no work experience, but with a great desire to learn. I li
 ### Code examples
 
 ```
-num = int(input())
-for i in range(num // 2 + 1):
-    for j in range(i + 1):
-        print('*', end='')
-    print()
-for i in range(num // 2):
-    print('*' * (num // 2 - i))
+from math import pi
+
+
+# объявление функции
+def get_circle(radius):
+    c = 2 * pi * radius
+    s = pi * radius ** 2
+    return c, s
+
+# считываем данные
+r = float(input())
+
+# вызываем функцию
+length, square = get_circle(r)
+print(length, square)
 ```
 
 ### Education
