@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    margin: 0 auto;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 18px;
+}
+
+main,
+header,
+footer {
+    margin: 0 25% 0 25%;
+    width: 50%;
+}
+
+p,
+ul {
+    color: #909090;
+}
+
+h1,
+h2,
+h3 {
+    color: #aebeef;
+    text-align: center;
+}
+
+a {
+    color: #aebeef;
+}
+
+mark {
+    background: #aebeef;
+    color: #212121;
+}
+
+.header-image {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+
+code {
+    background: #323232;
+    border-left: 3px solid #6162b3;
+    color: #aebeef;
+    display: block;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    margin: 10px auto;
+    width: 50%;
+    height: auto;
+}
